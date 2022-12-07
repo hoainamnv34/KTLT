@@ -1,9 +1,7 @@
-
 #include <stdio.h>
 
 void input(int arr[], int n)
 {
-    printf("\nNhap mang: ");
     for (int i = 0; i < n; i++)
     {
         scanf("%d", arr + i);
@@ -27,10 +25,9 @@ void process_and_output(int arr[], int n)
 
 int main()
 {
-    printf("\nHo va ten: Nguyen Hoang Anh\nMSSV: 20204511");
+    printf("Vo Hoai Nam 20204592\n");
 
     int n;
-    printf("\n\nNhap so phan tu cua mang: ");
     scanf("%d", &n);
 
     int* arr = new int[n];

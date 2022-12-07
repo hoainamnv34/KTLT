@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main()
 {
+    //Vo Hoai Nam 20204592
     int x, y, z;
     int *ptr;
     scanf("%d %d %d", &x, &y, &z);
